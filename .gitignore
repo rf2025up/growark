@@ -1,0 +1,9 @@
+node_modules/
+dist/
+bigscreen/dist/
+*.log
+.env*
+.vercel/
+.trae/
+dist.zip
+growark/
