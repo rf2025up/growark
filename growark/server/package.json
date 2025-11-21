@@ -1,0 +1,19 @@
+{
+  "name": "growark-api",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.2",
+    "mysql2": "^3.10.0"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}

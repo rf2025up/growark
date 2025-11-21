@@ -1,0 +1,5 @@
+{
+  "name": "Classroom Hero - 教师端",
+  "description": "A mobile-first classroom evaluation system for teachers to manage students, scores, habits, and challenges with real-time screen synchronization capabilities.",
+  "requestFramePermissions": []
+}
