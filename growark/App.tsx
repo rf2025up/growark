@@ -7,7 +7,7 @@ import ClassManage from './pages/ClassManage';
 import Habits from './pages/Habits';
 import Settings from './pages/Settings';
 
-import { MOCK_STUDENTS, MOCK_CHALLENGES, MOCK_TASKS, MOCK_PK, MOCK_BADGES, MOCK_HABITS, randomizeStudentNames, randomChineseName } from './services/mockData';
+import { MOCK_CHALLENGES, MOCK_TASKS, MOCK_PK, MOCK_BADGES, MOCK_HABITS, randomizeStudentNames, randomChineseName } from './services/mockData';
 import { apiUpdateScore, apiHabitCheckIn, apiChallengeStatus, apiPKWinner, apiCompleteTask, apiGrantBadge } from './services/api';
 import { POINT_PRESETS as INITIAL_PRESETS } from './constants';
 import { Student, Habit, PointPreset, ScoreCategory, Challenge, PKMatch, Badge, Task } from './types';
@@ -62,7 +62,7 @@ function App() {
     return lvl;
   };
   // Global State
-  const [students, setStudents] = useState<Student[]>(MOCK_STUDENTS);
+  const [students, setStudents] = useState<Student[]>([]);
   const [habits, setHabits] = useState<Habit[]>(MOCK_HABITS);
   
   // Lifted State for Class Management Features

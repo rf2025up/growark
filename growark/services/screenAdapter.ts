@@ -1,7 +1,7 @@
 import { Student, Challenge, PKMatch, Badge, Habit, Task } from '../types'
-import { MOCK_STUDENTS, MOCK_CHALLENGES, MOCK_PK, MOCK_BADGES, MOCK_HABITS, MOCK_TASKS } from './mockData'
+import { MOCK_CHALLENGES, MOCK_PK, MOCK_BADGES, MOCK_HABITS, MOCK_TASKS } from './mockData'
 
-export const getStudents = (): Student[] => [...MOCK_STUDENTS]
+export const getStudents = (): Student[] => []
 export const getClasses = (): string[] => ['三年一班', '三年二班', '三年三班']
 export const getTasks = (): Task[] => [...MOCK_TASKS]
 export const getChallenges = (): Challenge[] => [...MOCK_CHALLENGES]

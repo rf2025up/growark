@@ -9,20 +9,6 @@ const svg = (seed: string) => {
   return `data:image/svg+xml;utf8,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 64 64%22><rect width=%2264%22 height=%2264%22 fill=%22${bg}%22/><circle cx=%2232%22 cy=%2224%22 r=%2212%22 fill=%22hsl(${hue},60%25,70%25)%22/><rect x=%2216%22 y=%2240%22 width=%2232%22 height=%2216%22 rx=%228%22 fill=%22${fg}%22/></svg>`;
 };
 
-export const MOCK_STUDENTS: Student[] = [
-  { id: '1', name: 'Alice', avatar: svg('Alice'), points: 125, exp: 340, level: 12, className: '三年二班', habitStats: { 'h1': 12, 'h2': 5 } },
-  { id: '2', name: 'Ben', avatar: svg('Ben'), points: 110, exp: 200, level: 10, className: '三年二班', habitStats: { 'h1': 8, 'h3': 15 } },
-  { id: '3', name: 'Chloe', avatar: svg('Chloe'), points: 130, exp: 410, level: 13, className: '三年二班', habitStats: { 'h2': 20 } },
-  { id: '4', name: 'David', avatar: svg('David'), points: 98, exp: 150, level: 8, className: '三年二班' },
-  { id: '5', name: 'Emily', avatar: svg('Emily'), points: 150, exp: 600, level: 15, className: '三年二班' },
-  { id: '6', name: 'Frank', avatar: svg('Frank'), points: 122, exp: 300, level: 11, className: '三年二班' },
-  { id: '7', name: 'Grace', avatar: svg('Grace'), points: 115, exp: 280, level: 11, className: '三年二班' },
-  { id: '8', name: 'Henry', avatar: svg('Henry'), points: 108, exp: 220, level: 9, className: '三年二班' },
-  { id: '9', name: 'Ivy', avatar: svg('Ivy'), points: 142, exp: 520, level: 14, className: '三年二班' },
-  { id: '10', name: 'Jack', avatar: svg('Jack'), points: 135, exp: 450, level: 13, className: '三年二班' },
-  { id: '11', name: 'Kate', avatar: svg('Kate'), points: 95, exp: 120, level: 7, className: '三年二班' },
-  { id: '12', name: 'Liam', avatar: svg('Liam'), points: 160, exp: 700, level: 16, className: '三年二班' },
-];
 
 export const MOCK_TEAMS: Team[] = [
   { id: 't1', name: '火箭队' },
